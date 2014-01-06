@@ -22,6 +22,7 @@
 		C7FA0E85187B334D005E7A45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FA0E64187B334D005E7A45 /* UIKit.framework */; };
 		C7FA0E8D187B334E005E7A45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7FA0E8B187B334E005E7A45 /* InfoPlist.strings */; };
 		C7FA0E8F187B334E005E7A45 /* constantesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FA0E8E187B334E005E7A45 /* constantesTests.m */; };
+		C7FA0E9C187B3413005E7A45 /* Constantes.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FA0E9B187B3413005E7A45 /* Constantes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		C7FA0E8A187B334D005E7A45 /* constantesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "constantesTests-Info.plist"; sourceTree = "<group>"; };
 		C7FA0E8C187B334E005E7A45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7FA0E8E187B334E005E7A45 /* constantesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = constantesTests.m; sourceTree = "<group>"; };
+		C7FA0E9A187B3413005E7A45 /* Constantes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constantes.h; sourceTree = "<group>"; };
+		C7FA0E9B187B3413005E7A45 /* Constantes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constantes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,7 @@
 		C7FA0E66187B334D005E7A45 /* constantes */ = {
 			isa = PBXGroup;
 			children = (
+				C7FA0E9D187B3419005E7A45 /* Constantes */,
 				C7FA0E6F187B334D005E7A45 /* AppDelegate.h */,
 				C7FA0E70187B334D005E7A45 /* AppDelegate.m */,
 				C7FA0E72187B334D005E7A45 /* Main_iPhone.storyboard */,
@@ -153,6 +157,15 @@
 				C7FA0E8B187B334E005E7A45 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7FA0E9D187B3419005E7A45 /* Constantes */ = {
+			isa = PBXGroup;
+			children = (
+				C7FA0E9A187B3413005E7A45 /* Constantes.h */,
+				C7FA0E9B187B3413005E7A45 /* Constantes.m */,
+			);
+			name = Constantes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7FA0E7A187B334D005E7A45 /* ViewController.m in Sources */,
+				C7FA0E9C187B3413005E7A45 /* Constantes.m in Sources */,
 				C7FA0E71187B334D005E7A45 /* AppDelegate.m in Sources */,
 				C7FA0E6D187B334D005E7A45 /* main.m in Sources */,
 			);

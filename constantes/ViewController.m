@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+//es una manera para usar las constantes en este archivo, pero unicamente en este archivo, no estarian nuestras constantes ni siquiera en el .h
+//#import "Constantes.h"
 
 @interface ViewController ()
 
@@ -17,7 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    //Forma de acceder a la constante declarada en otro archivo
+    NSString * direccion = URL;
 }
 
 - (void)didReceiveMemoryWarning
